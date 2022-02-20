@@ -1,0 +1,88 @@
+body {
+    margin: 40px;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: none;
+  }
+  
+  .sidebar {
+      grid-area: sidebar;
+      background-color: none;
+    }
+  
+    .content {
+        grid-area: content;
+        background-image: url("face.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        object-position: bottom;
+        background-color: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .content1 {
+        grid-area: content;
+        background-color: none;
+        grid-template-areas: 
+        "teksti1"
+        "teksti2"
+        "teksti3"
+        "teksti4";
+    }
+
+    .content2 {
+        grid-area: content;
+        background-color: #7892c2;
+        grid-template-areas: 
+        "school1"
+        "school2"
+        "school3";
+    }
+
+    .content3 {
+        grid-area: content;
+        background-color: #7892c2;
+        grid-template-areas: 
+        "tyo1"
+        "tyo2"
+        "tyo3";
+    }
+
+
+  .box {
+    background-color: none;
+    color: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }
+  
+  .header {
+    background-color: none;
+    font-size: 80px;
+    text-align: center;
+
+  }
+  .footer {
+    background-color: #7892c2;
+    text-align: center;
+  }
+
+.list-group-item {
+    position: center;
+    padding: 0px 0px; /* adjust here */
+    margin-bottom: -100px;
+    border: 10px solid #ddd;
+    line-height: 5em; /* set to text height */
+    font-size: 35px;
+    text-align: center;
+    border: 0px solid rgba(0,0,0,0) !important;
+    background-color: rgba(255, 255, 255, 0) !important; 
+}
+
