@@ -76,6 +76,7 @@ body {
 
 .list-group-item {
     position: center;
+    pointer-events: none;
     padding: 0px 0px; /* adjust here */
     margin-bottom: -100px;
     border: 10px solid #ddd;
